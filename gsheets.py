@@ -1,4 +1,4 @@
-from config import TARGET_GOOGLE_SHEETS, TARGET_GOOGLE_SHEETS_INDEX, SERVICE_ACCOUNT_FILE
+from config import TARGET_GOOGLE_SHEETS, TARGET_GOOGLE_SHEETS_INDEX
 import gspread, json
 from oauth2client.service_account import ServiceAccountCredentials
 
