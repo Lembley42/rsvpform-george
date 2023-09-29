@@ -21,3 +21,4 @@ def send_mail(smtp:smtplib.SMTP_SSL, subject: str, body: str, sender: str = SMPT
     smtp.send_message(msg)
     smtp.quit()
     print('Email sent!')
+    
